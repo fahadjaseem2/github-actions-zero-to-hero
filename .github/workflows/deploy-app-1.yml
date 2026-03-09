@@ -5,7 +5,7 @@ on:
 
 jobs:
   deploy:
-    environment: prod
+    env:
       DOCKERHUB_USER: ${{ vars.DOCKERHUB_USER }}
     runs-on: self-hosted
 
